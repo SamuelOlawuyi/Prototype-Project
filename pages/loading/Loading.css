@@ -1,0 +1,24 @@
+#Loading {
+  display: flex;
+  max-width: 520px;
+  height: 414px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#Loading img {
+  width: 80px;
+  height: 80px;
+}
+
+#Loading p {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

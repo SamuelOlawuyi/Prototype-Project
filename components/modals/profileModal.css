@@ -1,0 +1,58 @@
+.Profilemodal-window{
+    max-width: 15.7%;
+    position: absolute;
+    box-shadow: 0px 4px 24px 0px rgba(95, 84, 84, 0.08);
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 100px;
+    left: 65%;
+    z-index: 20;
+  }
+  .notification-body{
+    width: 500px;
+  }
+
+  .profileModal-divider{
+    background: #eeeeee;
+    height: 1px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+
+  .AllImg{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profileModal-img-text{
+    max-width: 70%;
+    display: flex;
+    margin-left: 15%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #5f5f5f;
+  }
+
+  .profileModal-img{
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   margin-right: 10%;
+  }
+
+  .profileModal-text{
+    font-style: Semi Bold;
+    /* font-family: Inter; */
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    width: 800px;
+  }
+

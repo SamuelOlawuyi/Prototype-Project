@@ -1,0 +1,97 @@
+/* Customized CSS for react-toastify toasts */
+
+/* Toast container */
+.Toastify__toast-container {
+    position: fixed;
+    z-index: 9999;
+    top: 20px;
+    right: 20px;
+    width: 320px;
+  }
+  
+  /* Individual toast */
+  .Toastify__toast {
+    position: relative;
+    min-height: 64px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Success toast */
+  .Toastify__toast--success {
+    background: #4caf50;
+  }
+  
+  /* Error toast */
+  .Toastify__toast--error {
+    background: #f44336;
+  }
+  
+  /* Info toast */
+  .Toastify__toast--info {
+    background: #2196f3;
+  }
+  
+  /* Warning toast */
+  .Toastify__toast--warning {
+    background: #ff9800;
+  }
+  
+  /* Toast title */
+  .Toastify__toast-body {
+    flex: 1;
+    padding-right: 16px;
+    font-weight: bold;
+  }
+  
+  /* Close button */
+  .Toastify__close-button {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    padding: 8px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Close icon */
+  .Toastify__close-button svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Progress bar container */
+  .Toastify__progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Progress bar fill */
+  .Toastify__progress-bar--animated {
+    height: 100%;
+    background: #4caf50;
+    animation: Toastify__track-progress 5s linear;
+  }
+  
+  /* Keyframes for progress bar animation */
+  @keyframes Toastify__track-progress {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  

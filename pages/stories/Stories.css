@@ -1,0 +1,71 @@
+/* .Stories .subscribe{
+  height: 200px;
+  padding: 100px;
+  border: 2px solid;
+  text-align: center;
+} */
+
+.Stories .footer{
+  height: 200px;
+  padding: 100px;
+  border: 2px solid;
+  text-align: center;
+}
+
+.Stories .container{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 40px 0px;
+}
+
+.Stories .story{
+  max-width: 715px;
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.Stories .story .header{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.Stories .story .button{
+  margin-top: 24px;
+  text-align: center;
+}
+
+.Stories .story .header{
+  margin-bottom: 24px;
+}
+
+.Stories .story .header p{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.Stories .story .header>img{
+  width: 109px;
+  height: 89px;
+  border-radius: 8px;
+}
+
+.Stories .story .header p>span{
+  display: flex;
+  align-items: center;
+}
+
+.Stories .story .header p img{
+  width: 20px;
+  height: 20px;
+}
+
+.short-article{
+  text-align: center;
+  font-size: 28px;
+}
+

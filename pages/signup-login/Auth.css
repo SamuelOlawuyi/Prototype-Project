@@ -1,0 +1,66 @@
+.Auth * {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.Auth {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 600px;
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+  /* font-size: 24px;
+  font-weight: 700; */
+}
+
+.Auth img {
+  width: 64px;
+  height: 64px;
+}
+
+.Auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 50px;
+  border-radius: 4px;
+  background-color: #FFF;
+}
+
+.Auth form>* {
+  width: 400px;
+  border-radius: 6px;
+}
+
+.Auth form>input,
+.Auth form button {
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: 1px solid #D0D5DD;
+}
+
+.Auth form>a {
+  width: 400px;
+  text-decoration: none;
+}
+
+.Auth .google-btn button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Auth .google-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.Auth p>a {
+  color: #34A853;
+  text-decoration: none;
+}

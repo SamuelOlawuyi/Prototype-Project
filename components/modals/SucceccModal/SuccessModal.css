@@ -1,0 +1,28 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  height: 374px;
+  width: 457px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 100px auto;
+  padding: 100px 0 100px 0;
+  gap: 32px;
+}
+
+.success-header {
+  color: #101828;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+.success-text {
+  color: #101828;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

@@ -1,0 +1,110 @@
+.light {
+    background-color: #ffffff;
+}
+
+.dark {
+    background-color: #000000;
+    color:#ffffff
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 100px;
+  height: 94px;
+  box-shadow: 0px 4px 8px 0px rgba(33, 33, 33, 0.08);
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar .group1-xy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex: 1;
+}
+
+.navbar .avatar-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .blog-logo-xy{
+  display: flex;
+  align-items: center;
+}
+
+.navbar .blog-logo-xy img{
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.navbar .blog-logo-xy span{
+  font-size: 24px;
+  font-weight: 700;
+  margin: 8px;
+}
+
+.navbar .icons-group{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.navbar .icons-group img{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.navbar .icons-group img[alt="notification"]{
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-form{
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 4px;
+  flex: 2;
+  align-self: center;
+  width: 816px;
+}
+
+.navbar form img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.navbar-search{
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.navbar .group2-xy{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar .btn {
+  width: 150px;
+}

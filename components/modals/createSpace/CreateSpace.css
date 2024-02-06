@@ -1,0 +1,178 @@
+/* Reset some default styles */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(137, 131, 131, 0.745);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+  }
+
+.create-space-container {
+  border-radius: 5px;
+  border-radius: 12px;
+  width: 44.4%;
+  min-height: 542px;
+  border: 1px solid #F5F5F5;
+  background-color:  #FFF;
+  padding: 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  margin-top: 30px;
+}
+
+.maintitle-clear{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.icon-clear {
+    cursor: pointer;
+}
+
+.create-space-sub-maintitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.create-space-sub-title1 {
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#667085;
+    margin-bottom: 24px;
+}
+
+.create-space-title {
+    font-size: large;
+    /* margin: 0; */
+    color: #101828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.create-space-sub-input {
+    height: 44px;
+    width: 100%;
+    align-items: flex-start;
+    border-radius: 6px;
+    border: 1px solid  #D0D5DD;
+    padding: 12px 16px;
+    color: #98A2B3;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.create-space-sub-title2 {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#667085;
+    margin-bottom: 8px;
+}
+
+.create-space-description {
+    width: 100%;
+    min-height: 113px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: 1px solid  #D0D5DD;
+    color: #98A2B3;
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.create-space-image-input{
+    margin-top: 8px;
+    width: 100%;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid  #D0D5DD;
+    padding: 12px 16px;
+    color: #98A2B3;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+.custom-file-input {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 32px;
+    margin-top: 10px;
+  }
+
+  .file-input {
+    position: absolute;
+    font-size: 100px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .custom-file-label {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    color: #98A2B3;
+    font-size: 14px;
+  }
+
+  .upload-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+
+  .upload-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #98A2B3;
+    cursor: pointer;
+  }
+
+  .create-space-cancel-create-button {
+    margin-left: 370px;
+    display: flex;
+}
+
+.create-space-button {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+
