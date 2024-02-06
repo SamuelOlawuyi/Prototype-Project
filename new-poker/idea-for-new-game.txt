@@ -1,0 +1,11 @@
+IDEA FOR NEW GAME
+
+Four random cards will be generated ten times with player1 and player2 having 5 turns each to pick a card from the 4 cards generated.
+
+(0) - there are 52 cards in deck, player1 and player2 have no cards
+(1) - 4 random cards generated from available cards in deck
+(2) - player1 picks a card from the cards generated
+(3) - repeat step (1)
+(4) - player2 picks a card from the cards generated
+(5) - repeat step (1) to (4) until player1 and player2 have 5 cards each
+(6) - call pokerhands for player1 vs player2
