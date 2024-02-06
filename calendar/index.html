@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple calendar</title>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Select month, input year and click enter</legend>
+            <div class="container">
+                <div>
+                    <label for="month">Month</label>
+                    <select class="input" id="month" name="month"></select>
+                </div>
+                <div>
+                    <label for="year">Year</label>
+                    <input class="input" id="year" max="9999" min="1" required type="number" pattern="\d{4}">
+                </div>
+                <div id="submit">
+                    <button>Enter</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+    <div class="calendar">
+        <h1>
+            <button class="prev btn">&lt;</button>
+            <span class="month-year"></span>
+            <button class="next btn">&gt;</button>
+        </h1>
+        <ul class="weekdays"></ul>
+        <ul class="days"></ul>
+    </div>
+    <footer></footer>
+    <p style="text-align: center;">Desmond Ikilo (ikilodesmond@gmail.com)</p>
+</body>
+
+</html>
